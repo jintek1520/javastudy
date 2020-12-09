@@ -1,0 +1,17 @@
+boolean a=false;
+char b='';
+byte c;
+short d;
+int e;
+long f;
+float g; 
+double h;
+
+false
+ 
+0
+0
+0
+0.0
+0.0
+NULL
