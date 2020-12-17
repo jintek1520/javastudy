@@ -1,6 +1,6 @@
  java 개발환경 설치
 
-1. jdk =java development kit)
+1. jdk (=java development kit)
 - 자바 개발환경 설정(치) <<암기 
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
@@ -8,30 +8,37 @@ jdk se 1.8(standard edition) 무료
 jdk ee(enterprise edition) 유료
 JDK ME(micro edition) 
 
-2. ide : eclipse 다운로드
+2. 통합개발환경(ide) : eclipse 다운로드
 https://www.eclipse.org/downloads/download.php
 ?file=/oomph/epp/2020-09/R/eclipse-inst-jre-win64.exe
 
 3. 자바 프로젝트를 저장할 수 있는 공간
--workspace_java
+- C: workspace
+보기 편하게
 
-
-4. eclipse의 구조
+4. eclipse의 시작 설정 할 때 
  - 이클립스 우측 상단의 [open perspective]를 클릭하여
 java perspective 선택
  - [ctrl+n]을 누른 후 [자바프로젝트 생성]
- - 프로젝트명은 
  
-패키지는 다 소문자로
-회사의 도메인을 거꾸로
-예? kr.co.ezen, com.naver
+ - 프로젝트명은 대문자로 시작
+ 
+-패키지는 다 소문자로
+회사의 도메인을 거꾸로 입력하기를 임시로 채택함
+예시로 kr.co.ezen / com.naver
 - [ctrl+n]을 누른 후 [class]생성
-- 클래스명은 첫 글자 대문자, 띄어쓰기 하지않고 띄어쓰는 
-단어의 첫글자 대문자.
--main() 메서드를 생성,
+
+- 클래스명은 첫 글자 대문자, 띄어쓰기를 하지않고 
+띄어쓰는 단어의 첫글자도 대문자.
+
+ 코드 테스트용 메인클래스에
+-main() 메서드의 생성,
 ->[main] 적은 후 [ctrl + space]
--console에 출력은
+ 테스트 객체 생성 
+
+-console에 출력 할 코드 작성은 
 [sysout] 적은 후 [ctrl + space]
+
 println("hello world");
 println(11);
 println("h");
@@ -41,9 +48,10 @@ println(false);
 
 5. 콘솔에 "hello world"출력
 
- 6. 변수
-=는 대입 연산자 : 우측의 값을 좌측의 변수에 대입 
-복사해서 다른 쪽에 줌 
+6. 변수
+ 
+   =는 대입 연산자 : 우측의 값 또는 주소(를)을 좌측의 변수에 대입 
+
 
 
 
